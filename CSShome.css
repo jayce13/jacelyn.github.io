@@ -1,0 +1,121 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+}
+a{
+    color: #FFCE44;
+    text-decoration: none;
+}
+.container {
+	width:80%;
+	margin:0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+header h1 {
+    float: left;
+    padding: 15px 0;
+    font-style: italic;
+}
+header ul{
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: #15317E;
+    color: #FBE7A1;
+}
+.active {
+    background-color: #15317E;
+    color: #FBE7A1;
+}
+.banner {
+	height: 85vh;
+	background-image: url(bannercp.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.label {
+	background-color:#a7beea;
+	color: rgb(255, 255, 255);
+    padding: 20px 0px;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color: black;
+	margin-bottom: 25px;
+  font-size: 1cm;
+}
+.about p {
+	color: black;
+	word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video{
+  align-content: center;
+  position: absolute;
+  top: 50%; left: 50%;
+   transform: translate(-50%,-50%)
+}
+.characters {
+    background-color: white;
+    word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.banner2 {
+    height: 25vh;
+    background-image: url(kirbybanner2.png);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.banner3 {
+    height: 72vh;
+    background-image: url(kirbybanner.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.Howtoplay {
+    word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.banner4 {
+    height: 25vh;
+    background-image: url(kirbybanner4.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
